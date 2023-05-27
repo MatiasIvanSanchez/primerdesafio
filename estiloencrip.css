@@ -1,0 +1,82 @@
+* {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    overflow-y: hidden;
+    background: rgb(103, 106, 109);
+}
+
+.logo {
+    padding-top: 40px;
+    margin-left: 40px;
+    width: 10%;
+}
+
+main {
+    display:flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+    
+}
+
+.textoCifrado {
+    height: 400px;
+    border: none;
+    color:#0A3871;
+    margin-top: 25px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+
+.mensaje {
+    height: 630px;
+    background: blue;
+    background-image: url(img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 3px;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.contenedorBotones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.botonEncriptar {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+
+.botonDesencriptar {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+
+.copiar {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+

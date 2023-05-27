@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloencrip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./imgLogoAlura.svg" alt="logo de alura latam">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="textoCifrado" placeholder="Ingresar texto"> </textarea>
+
+            <div>
+                <h5 class="informacion"> Unicamente minúsculas y sin acentos</h5>
+            </div>
+
+            <div class="contenedorBotones">
+                <button type="button" class="botonEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button type="button" class="botonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button type="button" class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Matias Sanchez - 2023 </p>
+
+    </footer>
+</body>
+
+<script src="encriptador.js"></script>
+
+</html>
