@@ -1,14 +1,17 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     font-family: "Inter";
-    }
-    
+    background: #225e8b;    
+
+}
+
 main {
     display: flex;
     height: 33rem;
     margin-bottom: 2rem;
     width: 100%;
+    
 }
 
 .logo {
@@ -53,10 +56,10 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 10%;
     padding: 0px;
     gap: 8px;
     position: absolute;
-    width: 80%;
     left: 10%;
     top: 80%;
     font-weight: 50;
@@ -67,11 +70,12 @@ main {
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
-    color: blue;
+    color: white;
     flex: none;
 }
 
 .contenedorBotones {
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,7 +181,7 @@ main {
 .imgPersona {
     box-sizing: border-box;
     height: auto;
-   
+
     text-align: center;
     padding-top: 1rem;
     width: 100%;
