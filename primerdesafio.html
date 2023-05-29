@@ -18,24 +18,36 @@
     </header>
 
     <main>
-        <section>
-            <textarea class="textoCifrado" placeholder="Ingresar texto"> </textarea>
-
-            <div>
-                <h5 class="información"> Unicamente minúsculas y sin acentos</h5>
+        <section class="seccionEncriptar">
+            <textarea class="textoCifrado" placeholder="Ingrese su texto"> </textarea>
+            <div class="condiciones">
+                <img src="img2.png" alt="Icono de atención">
+                <p>Sólo letras en minúscula y sin acentos.</p>
             </div>
 
             <div class="contenedorBotones">
-                <button type="button" class="botonEncriptar" onclick="btnEncriptar()">Encriptar</button>
-                <button type="button" class="botonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button type="button" class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button type="button" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
 
         </section>
-        <section>
-            <textarea class="mensaje" cols="20" rows="10"></textarea>
-            <div>
-                <button type="button" class="copiar" onclick="copiar()">Copiar</button>
+
+        <section class="seccionDesencriptar">
+
+            <div class="contenedorDesencriptado">
+                <img class="imgPersona" src="img1.png" alt="persona pensando">
+                <textarea class="textoResultado" id="mensaje" cols="20" rows="10" placeholder="Ningún texto encontrado">
+                </textarea>
             </div>
+            <div class="contenedorParrafo">
+                <h4>Ningún texto fué ingresado</h4>
+                <p>Ingresa texto a criptar</p>
+            </div>
+
+            <div class="contenedorCopiar">
+                <button type="button" class="btnCopiar" onclick="copiar()">Copiar</button>
+            </div>
+
         </section>
     </main>
 

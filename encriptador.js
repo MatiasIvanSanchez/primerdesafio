@@ -1,5 +1,5 @@
 const textArea = document.querySelector(".textoCifrado");
-const mensaje = document.querySelector(".mensaje");
+const mensaje = document.querySelector(".textoResultado");
 
 function btnEncriptar() {
 
