@@ -39,7 +39,7 @@ main {
 }
 
 .textoCifrado::placeholder {
-    color: rgb(228, 17, 17);
+    color: rgb(255, 255, 255);
 }
 
 .textoCifrado:focus,
@@ -112,9 +112,9 @@ main {
 .contenedorParrafo {
     color: aliceblue;
     font-family: sans-serif;
-    height: 20%;
+    height: 15%;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 100%;
 }
 
@@ -176,7 +176,7 @@ main {
 .imgPersona {
     box-sizing: border-box;
     height: auto;
-    overflow:hidden;
+   
     text-align: center;
     padding-top: 1rem;
     width: 100%;
